@@ -1,0 +1,11 @@
+\Solilokiam\AliceDemoBundle\Entity\User:
+    user0:
+        username: miquel
+        firstName: Miquel
+        lastName: Company Rodriguez
+        email: miquel@test.com
+    user1:
+        username: alice
+        firstName: Alice
+        lastName: Wonderland
+        email: alice@test.com

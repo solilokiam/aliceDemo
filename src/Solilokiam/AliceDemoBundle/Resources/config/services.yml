@@ -1,0 +1,7 @@
+parameters:
+#    solilokiam_alice_demo.example.class: Solilokiam\AliceDemoBundle\Example
+
+services:
+#    solilokiam_alice_demo.example:
+#        class: %solilokiam_alice_demo.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
