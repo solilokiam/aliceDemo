@@ -1,0 +1,3 @@
+\Solilokiam\AliceDemoBundle\Entity\Category:
+    category{0..100}:
+        name: <word()>

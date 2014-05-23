@@ -1,0 +1,12 @@
+\Solilokiam\AliceDemoBundle\Entity\User:
+    user1:
+        username: <username()>
+        lastName: <lastName()>
+        firstName: <firstName()>
+        email: <email()>
+
+\Solilokiam\AliceDemoBundle\Entity\Post:
+    post{0..10}:
+        title: <sentence(6)>
+        body: <paragraph(5)>
+        user: @user1

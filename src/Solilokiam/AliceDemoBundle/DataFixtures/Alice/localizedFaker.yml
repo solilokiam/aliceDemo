@@ -1,0 +1,6 @@
+\Solilokiam\AliceDemoBundle\Entity\User:
+    user{0..100}:
+        username: <es_ES:username()>
+        lastName: <es_ES:lastName()>
+        firstName: <es_ES:firstName()>
+        email: <email()>

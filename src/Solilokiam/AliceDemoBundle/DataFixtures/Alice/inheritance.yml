@@ -1,0 +1,13 @@
+\Solilokiam\AliceDemoBundle\Entity\User:
+    BaseUser (template):
+        username: <username()>
+        lastName: <lastName()>
+        firstName: <firstName()>
+        email: <email()>
+
+    UserWithSite{0..10} (extends BaseUser):
+        website: http://www.<domainName()>
+
+    UserWithoutEmail{0..10} (extends BaseUser):
+        email : ''
+

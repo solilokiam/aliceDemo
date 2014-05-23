@@ -1,0 +1,10 @@
+include:
+    - simpleInclude/includedUser.yml
+    - simpleInclude/includedCategory.yml
+
+\Solilokiam\AliceDemoBundle\Entity\Post:
+    post{0..10}:
+        title: <sentence(6)>
+        body: <paragraph(5)>
+        user: @user*
+        categories: 3x @category*
